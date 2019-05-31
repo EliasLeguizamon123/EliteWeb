@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Khula|Play" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <script type="text/javascript" src="js/scripts.js"></script>
 	</head>
 <body>
 	<div class="row main-container middle-xs center-xs">
@@ -16,6 +17,7 @@
 				<div class="card animated slideInDown">
 					<header class="main-header">
 						<nav class="main-nav">
+                          <!-- Cabecera con Nav-links  -->
 							<a href="index.html" class="nav-link">Inicio</a>
 							<a href="contacto.html" class="nav-link">Contactanos</a>
 							<a href="registros.html" class="nav-link">Registrate</a>
@@ -23,8 +25,11 @@
 					</header>
 					<article class="body">
 						<header class="text-center">
-							<img src="./images/logo.png" height="130" alt="Logo de Elite">
-							<H1 class="red-text khula tittle threeD">Bienvenidos a Elite</H1>
+                          <!-- Lista de inputs con los campos a modificar en JS. -->
+							<input class="text-Box" type="text" placeholder="Escriba su Nombre." id="nombre">
+							<input class="text-Box" type="text" placeholder="Escriba su Apellido." id="apellido">
+                          <!-- Boton que activa la funcion aceptarNombre() al hacer click-->
+              <button class="buton-Box" type="button" onclick="aceptarNombre()">Aceptar registro</button>
 						</header>
 					</article>
 				</div>

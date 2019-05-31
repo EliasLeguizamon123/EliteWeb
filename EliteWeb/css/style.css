@@ -1,5 +1,5 @@
 body{
-	font-family: 'Play', sans-serif;	
+	font-family: 'Play', sans-serif;
 }
 .khula{
 	font-family: 'Khula', sans-serif;
@@ -49,4 +49,15 @@ body{
 }
 .threeD{
 	text-shadow: 1px 3px 0px #6B251D, 1px 13px 5px rgb(171, 168, 168);
+}
+.text-Box{
+	background: #FFFFFF;
+	border: 0;
+	color : #C0C0C0;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 370px;
+}
+.buton-Box{
+	border-radius: 5px;
 }
